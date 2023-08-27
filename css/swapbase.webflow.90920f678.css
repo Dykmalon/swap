@@ -294,7 +294,7 @@ html[data-w-dynpage] [data-w-cloak] {
 
 .w-webflow-badge, .w-webflow-badge * {
   z-index: auto;
-  visibility: visible;
+  visibility: none!important;
   box-sizing: border-box;
   width: auto;
   height: auto;
@@ -335,7 +335,7 @@ html[data-w-dynpage] [data-w-cloak] {
   padding: 0;
   list-style-type: disc;
   transition: none;
-  display: block;
+  display: none!important;
   position: static;
   top: auto;
   bottom: auto;
